@@ -28,6 +28,7 @@ img{
 }
 .menu li a{
     padding: 20px 40px;
+    background-color: rgba(9, 9, 155, 0.281);
     color: #fff;
     font-weight: bold;
     display: block;
@@ -37,8 +38,8 @@ img{
     margin-left: 15px;
 }
 .menu ul li a:hover{
-    color: #000;
-    text-shadow: 1px 1px 1px #fff;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 1px 1px #fff;
 }
 .banner-sectiom{
     background: url(img/Banner_slider.jpg) no-repeat center center;
@@ -46,16 +47,20 @@ img{
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    font-style: oblique;
+    color: rgba(0, 0, 255, 0.582);
 }
 .row-2{
     display: flex;
     flex: 1;
     margin-top: 10px;
     
+    
 }
 .flex-item{
-    border: 1px solid red;
+    border: 1px solid blue;
     padding: 10px;
+    margin-left: 5px;
 }
 .row-3{
      display: flex; 
@@ -65,7 +70,7 @@ img{
      
 }
 .row-3-item{
-    border: 1px solid rosybrown;
+    border: 1px solid blue;
     padding: 10px;
     flex-basis: 30%;
 }
@@ -81,18 +86,19 @@ img{
 }
 
 .row-4-item{
-    border: 1px solid sandybrown;
+    border: 1px solid blue;
     padding: 10px;
+    margin-left: 5px;
     flex: 1 0 0%;
 }
 .row-4-bigger{
     flex-grow: 3;
 }
 .centercenterdiv{
-    background-color: #000;
+    background-color: greenyellow;
     width: 300px;
     height: 300px;
-    border: 2px solid green;
+    border: 5px dotted blue;
     margin: auto;
     display: flex;
     justify-content: center;
